@@ -2,7 +2,17 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/matchDisplay": [
+                "matchDisplay/matchDisplay.js"
+            ],
+            "c/lWC_RegisterNow": [
+                "lWC_RegisterNow/lWC_RegisterNow.js"
+            ],
+            "c/thisWeeksPlayers": [
+                "thisWeeksPlayers/thisWeeksPlayers.js"
+            ]
+        }
     },
     "include": [
         "**/*",
